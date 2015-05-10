@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accident_type">
+        <item>กระดาษ โรงไม้ โรงงานผลิตผ้า โรงยาง โรงงานพลาสติคพลาสติก</item>
+        <item>โรงงานน้ำมัน โรงงานสี โรงงานสารเคมี</item>
+        <item>โรงงานเครื่องใช้ไฟฟ้า ร้านขายอุปกรณ์ไฟฟ้า</item>
+        <item>โรงงานโลหะติดไฟง่าย</item>
+        <item>ร้านอาหาร</item>
+        <item>ที่พักอาศัย เขตชุมชน</item>
+        <item>โรงงาน</item>
+        <item>พื้นที่ว่าง ป่าไม้</item>
+    </string-array>
+</resources>

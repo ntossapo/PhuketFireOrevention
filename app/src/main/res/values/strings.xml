@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ระบบจัดการอัคคีภัย ภูเก็ต</string>
+    <string name="title_section1">อุบัติเหตุที่เกิดขึ้น</string>
+    <string name="title_section2">แจ้งเหตุ</string>
+    <string name="title_section3">N/A</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">ตั้งค่า</string>
+    <string name="title_activity_maps">แผนที่</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

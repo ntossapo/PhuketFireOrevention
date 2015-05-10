@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/dialog_ed_image" />
+
+        <EditText
+            android:id="@+id/dialog_ed_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"/>
+
+        <EditText
+            android:id="@+id/dialog_ed_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"/>
+
+        <EditText
+            android:id="@+id/dialog_ed_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            />
+
+        <EditText
+            android:id="@+id/dialog_ed_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            />
+
+        <EditText
+            android:id="@+id/dialog_ed_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+    </LinearLayout>
+</ScrollView>

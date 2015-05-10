@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinnerAccidentType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"></Spinner>
+
+    <EditText
+        android:id="@+id/txt_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="ชื่อผู้แจ้ง"
+        android:layout_marginBottom="2dp"/>
+
+    <EditText
+        android:id="@+id/txt_descript"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="รายละเอียด"
+        android:layout_marginBottom="2dp"/>
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ต้องการรถพยาบาล"
+        android:id="@+id/checkbox_em" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="อาคารสูงมากกว่า 3 ชั้น"
+        android:id="@+id/checkbox_hb" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ทางเข้าเป็นซอยคับแคบ"
+        android:id="@+id/checkbox_nr" />
+    <Space
+    android:layout_width="fill_parent"
+    android:layout_height="40dp" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+    </RelativeLayout>
+
+</LinearLayout>
